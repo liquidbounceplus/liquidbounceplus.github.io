@@ -33,7 +33,46 @@ h1
 </head>
 <body>
 <div id="wrapper">
- <h1>LiquidBouncePlus</h1>
+ <h1>LiquidBounce Plus Downloads</h1>
+ <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="row">
+      <div class="column">
+        <img src="img/lbp_bg.png"Snow" style="width:20%">
+      </div>
+      <div class="column">
+        <img src="img/lbp_bg.png" alt="Forest" style="width:20%">
+      </div>
+    </div>
+    
+    </body>
 </div>
 </body>
 </html>
+
