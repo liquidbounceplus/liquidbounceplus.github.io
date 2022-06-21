@@ -2,11 +2,11 @@
 box-sizing: border-box;
 }
 .gato{
-    width: 40%;
+    width: 60%;
     float: left;
     margin-left: 30px;
-    margin-right: 40px;
-    padding: 30px;
+    margin-right: 30px;
+    padding: 20px;
 }
 .gato img{
     height: 400px;
