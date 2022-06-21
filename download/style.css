@@ -1,0 +1,13 @@
+*{
+box-sizing: border-box;
+}
+.gato{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+.gato img{
+    height: 400px;
+}
