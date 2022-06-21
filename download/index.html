@@ -35,14 +35,42 @@ h1
 <body>
     <div id="wrapper">
       <h1>LiquidBounce Plus Downloads</h1>
-        <div class="container">
-          <div class="gato">
-               <img src="img/lbp_bg.png" style="width: 100%;">
-          </div>
-          <div class="gato">
-               <img src="img/lbp_bg.png" style="width: 100%;">
-          </div>
-       </div>
+      <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+      }
+      </style>
+      <body>
+      
+      <div class="row">
+        <div class="column">
+          <img src="/download/img/lbp_bg.png" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="/download/img/lbp_bg.png" alt="Forest" style="width:100%">
+        </div>
+      </div>
+      </body>
     </div>
 </body>  
 </html>
